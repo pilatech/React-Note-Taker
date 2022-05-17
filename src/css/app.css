@@ -1,6 +1,12 @@
 @import-normalize;
 @import 'header.css';
 @import 'footer.css';
+@import 'note.css';
+@import 'home.css';
+
+*, *::before, *::after {
+ box-sizing: border-box;
+}
 
 body {
  font-family: 'Poppins', sans-serif;
@@ -14,4 +20,5 @@ body {
  margin: 0 auto;
  display: flex;
  flex-direction: column;
+ background: whitesmoke;
 }
