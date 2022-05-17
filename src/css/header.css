@@ -1,0 +1,17 @@
+.main-header {
+ background: #ffd300;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 0 20px;
+}
+
+.main-header__logo {
+ font-size: 1.5rem;
+}
+
+.main-header__add-btn{
+   background: none;
+   border: none;
+   cursor: pointer;
+}
